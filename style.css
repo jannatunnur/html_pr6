@@ -1,14 +1,32 @@
+.allplayer{
+	background-color:red;
+	display:flex;
+	flex-direction:column;
+	justify-content:center-left;
+	align-items:center-left;
+	margin:0  auto;
+	
+
+}
+.h1{
+	display:flex;
+	justify-content:flex-start;
+	align-items:flex-start;
+}
+
 .player-section{
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	background-color:gray;
+	background-color:#F0F0F0;
+
 
 }
 .players{
 	background-color:white;
 	display:grid;
 	grid-template-columns:repeat(3,1fr);
+	gap: 7px 30px;
 }
 .player1,.player2,.player3,.player4,.player5,.player6{
 	display:flex;
@@ -16,6 +34,7 @@
 		padding:7px;
 		margin:5px;
 		border:1px solid green;
+		border-radius:5px;
 }
 .edit{
 	height:100px;
