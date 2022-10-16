@@ -45,3 +45,12 @@
 h2{
 	font-size:15px;
 }
+
+
+.blog1{
+	display:flex;
+		align-items:center;
+		padding:7px;
+		margin:5px;
+		border:1px solid green;
+		border-radius:5px;
