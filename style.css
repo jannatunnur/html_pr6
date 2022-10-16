@@ -54,3 +54,34 @@ h2{
 		margin:5px;
 		border:1px solid green;
 		border-radius:5px;
+}		
+
+.allblog{
+	background-color:red;
+	display:flex;
+	flex-direction:column;
+	justify-content:center-left;
+	align-items:center-left;
+	margin:0  auto;
+	
+
+}
+.h1{
+	display:flex;
+	justify-content:flex-start;
+	align-items:flex-start;
+}
+
+.blog-section{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:#F0F0F0;
+}
+
+.blogs{
+	background-color:white;
+	display:grid;
+	grid-template-columns:repeat(2,1fr);
+	gap: 7px 30px;
+}
