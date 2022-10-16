@@ -1,0 +1,28 @@
+.player-section{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:gray;
+
+}
+.players{
+	background-color:white;
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+}
+.player1,.player2,.player3,.player4,.player5,.player6{
+	display:flex;
+		align-items:center;
+		padding:7px;
+		margin:5px;
+		border:1px solid green;
+}
+.edit{
+	height:100px;
+	witdth:100px;
+	border-radius:50%;
+	margin-right:10px;
+}
+h2{
+	font-size:15px;
+}
